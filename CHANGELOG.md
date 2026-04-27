@@ -7,10 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-04-27
+
+### Changed
+
+- **`@paperclipai/plugin-sdk`** dependency range updated to **`^2026.427.0`** (aligns with other publishable Paperclip plugins).
+- **npm publish:** `private` is `false`, `prepublishOnly` runs `build`, `publishConfig.access` is `public` for the `@hdanyal-ts` scope.
+
 ### Documentation
 
-- README: full section on **unread catch-up / wakeup sync** (triggers, config keys, throttling, lock, blog dedupe interaction) and **blog dedupe** options.
-- README: clearer **flow**, **at a glance** table, friendlier section titles, and tighter copy (same technical content).
+- README: **install-first** layout (registry, git tag, local path), maintainer publish notes, cross-links to third-party doc.
+- STANDALONE: points to README for install; tag example bumped to **v0.3.1**.
+
+[0.3.1]: https://github.com/hdanyal-ts/paperclip-plugin-agentmail/releases/tag/v0.3.1
 
 ## [0.3.0] - 2026-04-27
 
