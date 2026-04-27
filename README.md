@@ -1,4 +1,4 @@
-# paperclip-plugin-agentmail
+# Paperclip Plugin Agentmail
 
 **AgentMail → Paperclip:** inbound `message.received` over **webhooks** (Svix-verified) and/or **WebSockets** creates **issues** with **per-message idempotency** (`plugin_entities`), **attachments** as **issue documents**, and **REST** agent tools. Each mailbox stores the raw inbox **`am_…`** API key in plugin config; the webhook signing secret (`whsec_…`) can still use a Paperclip secret reference when using webhooks.
 
